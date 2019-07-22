@@ -2,8 +2,8 @@
 //  FloatingPictureViewController.swift
 //  MultipeerDemo
 //
-//  Created by Guilherme Rambo on 24/03/18.
-//  Copyright © 2018 Guilherme Rambo. All rights reserved.
+//  Created by t-jianli on 2019/7/15.
+//  Copyright © 2019 t-jianli. All rights reserved.
 //
 
 import UIKit
@@ -63,7 +63,7 @@ class FloatingPictureViewController: UIViewController {
             self.view.alpha = 0
         }) { _ in
             self.view.removeFromSuperview()
-            self.removeFromParentViewController()
+            self.removeFromParent()
         }
     }
 

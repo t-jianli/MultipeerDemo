@@ -2,8 +2,8 @@
 //  CSBigRoundedButton.swift
 //  CutenessKit
 //
-//  Created by Guilherme Rambo on 22/02/18.
-//  Copyright © 2018 Guilherme Rambo. All rights reserved.
+//  Created by t-jianli on 2019/7/15.
+//  Copyright © 2019 t-jianli. All rights reserved.
 //
 
 import UIKit
@@ -133,10 +133,10 @@ open class CSBigRoundedButton: UIButton {
     }
 
     open override var intrinsicContentSize: CGSize {
-        return CGSize(width: UIViewNoIntrinsicMetric, height: Metrics.height)
+        return CGSize(width: UIView.noIntrinsicMetric, height: Metrics.height)
     }
 
-    private let animationOptions: UIViewAnimationOptions = [
+    private let animationOptions: UIView.AnimationOptions = [
         .beginFromCurrentState,
         .allowAnimatedContent,
         .allowUserInteraction

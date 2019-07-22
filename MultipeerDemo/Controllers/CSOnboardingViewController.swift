@@ -2,8 +2,8 @@
 //  CSOnboardingViewController.swift
 //  CutenessKit
 //
-//  Created by Guilherme Rambo on 22/02/18.
-//  Copyright © 2018 Guilherme Rambo. All rights reserved.
+//  Created by t-jianli on 2019/7/15.
+//  Copyright © 2019 t-jianli. All rights reserved.
 //
 
 import UIKit
@@ -59,7 +59,7 @@ open class CSOnboardingViewController: UIViewController {
 
         let kern: CGFloat = -0.55
 
-        let attrs: [NSAttributedStringKey: Any] = [
+        let attrs: [NSAttributedString.Key: Any] = [
             .font: titleFont,
             .kern: kern,
             .foregroundColor: titleTextColor,

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  MultipeerDemo
 //
-//  Created by Guilherme Rambo on 23/03/18.
-//  Copyright © 2018 Guilherme Rambo. All rights reserved.
+//  Created by t-jianli on 2019/7/15.
+//  Copyright © 2019 t-jianli. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     private lazy var flowController = DemoFlowController()
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow()
 
         window?.rootViewController = flowController
